@@ -1,1 +1,1 @@
-< ?php header("Location: " . $_GET["url"]); ?>
+<?php header("Location: " . $_GET["url"]); ?>

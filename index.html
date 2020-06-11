@@ -4,13 +4,13 @@
 <head></head>
 
 <body>
-  <a href="https://developers.amadeus.com" id="amadeus4dev">Amadeus For Developers</a>
+  <!-- <a href="https://developers.amadeus.com" id="amadeus4dev">Amadeus For Developers</a> -->
   <script type="text/javascript">
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
-    // const url = urlParams.get('url');
-    const url = "amadeus4dev";
-    
+    const url = urlParams.get('url');
+    // const url = "amadeus4dev";
+
     var anchorElement = document.getElementById(url);;
     if (!anchorElement) {
       anchorElement = document.createElement("a");
